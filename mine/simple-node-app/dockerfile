@@ -1,0 +1,6 @@
+from node:lts
+copy index.js index.js
+copy package.json package.json
+copy package-lock.json package-lock.json
+run npm i
+cmd node .
